@@ -1,0 +1,183 @@
+body{
+	background: #fff;
+	padding: 10px;
+	
+}
+
+.form  {
+    
+    margin: auto;
+   background: rgba(15, 11, 140, 0.1); 
+    
+    
+    
+    padding: 10px 40px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+}
+
+
+
+
+.presentacion{
+	height: 500px;
+	width: 90%;
+	display: flex;
+	margin: auto;
+	border-radius: 7px;
+	box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.5);
+	box-shadow: -15px -10px 28px #383a3b;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.presentacion .img{
+	width: 50%;
+}
+
+.presentacion .img sistemas{
+	width: 100%;
+	vertical-align: top;
+}
+
+.producto-info{
+	width: 50%;
+	border-radius: 0 7px 10px 7px;
+	background: #fff;
+}
+
+.producto-texto{
+	width: 100%;
+}
+
+.producto-texto h1{
+	margin-left: 30px;
+	padding-top: 10px;
+	font-size: 34px;
+	color: #474747;
+}
+
+.producto-texto h1, .enviar-btn{
+	font-family: serif;
+}
+
+label{
+	font-family: sans-serif;
+}
+
+.producto-texto h2{
+	margin: 0 0 47px 38px;
+	font-size: 13px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	letter-spacing: .2em;
+}
+
+
+.producto-texto p.comentario{
+	
+	font-size: 13px;
+	font-family: serif;
+	color: black;
+	line-height: 1.7em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: justify;
+}
+
+
+.producto-texto p.numticket{
+	font-size: 25px;
+	padding-bottom: 10px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.producto-texto p.general{
+	font-size: 13px;
+	color: black;
+	font-weight: bolder;
+	padding-bottom: 8px;
+	font-family: 'Rosario', sans-serif;
+}
+
+
+
+
+.enviar-btn input[type="submit"]{
+	height: 50px;
+	width: 250px;
+	border-radius: 60px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	background: #003463;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+
+.enviar-btn input[type="submit"]:hover{
+	background: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
